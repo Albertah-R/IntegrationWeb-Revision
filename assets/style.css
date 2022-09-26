@@ -14,6 +14,7 @@ font-family: 'Montserrat', sans-serif;
 --text : hsl(212, 21%, 14%);
 --paragraph : hsl(228, 12%, 48%);
 --white : hsl(0, 0%, 100%);
+--attribution : hsl(228, 45%, 44%);
 --medium : 500;
 }
 
@@ -25,14 +26,15 @@ h1{
 h2{
     font-family: 'Fraunces', serif;
     color: var(--button);
-    font-size: 36px;
+    font-size: 34px;
 }
 h3,
 h4,
 a{
     font-family: 'Montserrat', sans-serif;
-    color: var(--text);
-    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: var(--medium);
 }
 h5,
 h6{
@@ -82,8 +84,6 @@ section{
 
 .img__card, 
 img{
-    padding: 0px;
-    margin: 0px;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -100,6 +100,12 @@ img{
     border-radius: 20px;
 }
 
+.line{
+    text-decoration: line-through;
+    letter-spacing: normal;
+
+}
+
 button{
     display: flex;
     flex-direction: row;
@@ -107,15 +113,20 @@ button{
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 10px 10px 0px 10px;
-    padding: 10px 20px;
+    margin: 5px;
+    padding: 10px;
     background-color: var(--button);
     border-radius: 10px;
     color: var(--white);
     font-size: 14px;
     font-weight: 700;
+    width: 250px;
     border: none;
     cursor: pointer;
+}
+
+.cart{
+    padding: 10px;
 }
 
 .attribution{
@@ -128,8 +139,13 @@ button{
     margin: 0 0 0 0px;
     padding: 10px 20px;
     background-color: var(--background-page);
-    border-radius: 10px;
-    color: var(--paragraph);
-    font-size: 14px;
+    color: var(--attribution);
+    font-size: 11px;
     font-family:'Montserrat', sans-serif;
+}
+
+/*Responsive Design*/
+@media screen and (max-width: px){
+    
+
 }
