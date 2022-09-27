@@ -1,4 +1,4 @@
-/*Front*/
+/*Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 
 /*Root*/
@@ -10,6 +10,7 @@
   --grey: hsl(228, 12%, 48%);
   --white: hsl(0, 0%, 100%);
   --attribution: hsl(228, 45%, 44%);
+  /*Font-weight*/
   --medium: 500;
   --bold: 700;
 }
