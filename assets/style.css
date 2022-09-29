@@ -155,6 +155,12 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: var(--green);
+  transition: ease 0.5s all;
+  box-shadow: unset 10px 10px 10px 10px var(--black);
+}
+
 .cart {
   padding: 10px;
 }
